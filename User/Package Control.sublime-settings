@@ -1,0 +1,29 @@
+{
+	"bootstrapped": true,
+	"cache_length": 7200,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"ApacheConf",
+		"ayu",
+		"BracketHighlighter",
+		"Color Highlighter",
+		"CSS Format",
+		"GitGutter",
+		"Hosts",
+		"INI",
+		"JsFormat",
+		"LESS",
+		"MarkdownEditing",
+		"nginx",
+		"Nodejs",
+		"Package Control",
+		"Phpcs",
+		"QuickSearchEnhanced",
+		"Sass",
+		"SideBarEnhancements",
+		"SublimeGit"
+	]
+}

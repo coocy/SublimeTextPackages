@@ -1,0 +1,16 @@
+{
+	"high_visibility_style": "solid",
+	"show_unmatched": false,
+	"high_visibility_enabled_by_default": false,
+	"content_highlight_bar": true,
+	"align_content_highlight_bar": true,
+	"block_cursor_mode": true,
+	"bracket_styles": {
+		"default": {
+			"icon": "none",
+			"color": "brackethighlighter.default",
+			// "style": "stippled"
+			"style": "solid"
+		}
+	}
+}

@@ -1,0 +1,10 @@
+{
+	"extensions":
+	[
+		"sublime-settings",
+		"sublime-build",
+		".jsbeautifyrc",
+		"sublime-completions",
+		"asset"
+	]
+}

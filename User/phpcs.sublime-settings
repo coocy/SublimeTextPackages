@@ -1,0 +1,13 @@
+{
+	"phpcs_php_path": "/usr/local/bin/phpcs",
+	"php_cs_fixer_executable_path": "/usr/local/bin/php-cs-fixer",
+	"phpmd_executable_path": "/usr/local/bin/phpmd",
+	"php_cs_fixer_show_quick_panel": true,
+	"phpmd_run": true,
+	"phpcs_execute_on_save": false,
+	 "phpcs_show_errors_on_save": false,
+	"phpcs_additional_args": {
+		"--standard": "/Users/Alex/phpcs_ruleset.xml",
+		"-n": ""
+	}
+}
