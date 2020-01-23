@@ -54,6 +54,7 @@
 	"line_padding_top": 2,
 	"preview_on_click": false,
 	"shift_tab_unindent": true,
+	"show_definitions": false,
 	"show_encoding": true,
 	"show_full_path": true,
 	"tab_size": 4,
