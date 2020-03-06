@@ -1,0 +1,17 @@
+{
+
+	"cmd": ["/usr/local/bin/node", "$file"],
+	"selector": "source.js",
+
+	"variants": [
+		{
+			"cmd": ["java", "-jar", "/Users/Alex/Projects/www/Murloc/tools/bin/closure-compiler/compiler.jar",
+				"--js", "$file",
+				"--compilation_level", "ADVANCED_OPTIMIZATIONS",
+				"--use_types_for_optimization"
+			],
+			"selector": "source.js",
+			"name": "Compress JS"
+		}
+	]
+}

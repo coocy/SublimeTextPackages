@@ -1,0 +1,11 @@
+<snippet>
+	<content>
+		<![CDATA[<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>$1</title>
+</head>
+$0]]>
+	</content>
+	<tabTrigger>head</tabTrigger>
+	<scope>text.html &amp; (- meta.tag | punctuation.definition.tag.begin)</scope>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[echo '${0:string}';]]></content>
+    <tabTrigger>echo</tabTrigger>
+    <scope>source.php</scope>
+    <description>echo "…"</description>
+</snippet>

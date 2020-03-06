@@ -1,0 +1,9 @@
+<snippet>
+	<content>
+		<![CDATA[<ol>
+	$0
+</ol>]]>
+	</content>
+	<tabTrigger>ol</tabTrigger>
+	<scope>text.html &amp; (- meta.tag | punctuation.definition.tag.begin)</scope>
+</snippet>

@@ -1,0 +1,6 @@
+{
+
+	"cmd": ["/usr/local/bin/node", "/Users/Alex/Projects/www/Murloc/tools/compress.js", "$file"],
+	"selector": "source.js"
+
+}

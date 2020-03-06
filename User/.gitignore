@@ -1,0 +1,6 @@
+*.cache
+*.last-run
+Package Control.ca-list
+Package Control.ca-bundle
+Package Control.system-ca-bundle
+Package Control.ca-certs/

@@ -1,0 +1,196 @@
+{
+	"name": "Alex Color Scheme",
+	"variables":
+	{
+		"color_string": "#777777",
+		"color_keyword": "#091480",
+		"color_number": "#d64926",
+		"color_variable": "#091480",
+		"color_tag": "#0000ff",
+		"color_keyword_control": "#0000ff",
+		"color_support_function": "#8300ff",
+		"color_user_function": "#d64926",
+		"color_constant_value": "#B4371F",
+		"color_property_name": "#8080c0",
+		"color_property_value": "#000000",
+	},
+	"globals":
+	{
+		"background": "#f5f7ff",
+		"foreground": "#080808",
+		"line_highlight": "#e7e8fc",
+		"caret": "#000000",
+
+		"brackets_options": "foreground",
+		"brackets_foreground": "#b4371f",
+		
+		"bracket_contents_options": "foreground",
+		"bracket_contents_foreground": "#b4371f",
+
+		"tags_options": "foreground",
+		"tags_foreground": "#b4371f",
+
+		"selection": "#84e8478c",
+		"selection_border_width": "0",
+
+		"highlight": "#427c1b",
+		"find_highlight": "#84e8478c",
+
+		"shadow_width": "4",
+
+	},
+	"rules":
+	[
+		{
+			"scope": "brackethighlighter.default",
+			"background": "#f0f0b7",
+			"foreground": "#d64926"
+		},
+		{
+			"scope": "comment",
+			"font_style": "italic",
+			"foreground": "#008000"
+		},
+		{
+			"scope": "string",
+			"foreground": "var(color_string)",
+		},
+		{
+			"scope": "constant.numeric",
+			"foreground": "var(color_number)",
+		},
+		{
+			"scope": "keyword",
+			"foreground": "var(color_keyword)",
+		},
+		{
+			"scope": "storage.modifier | keyword.control",
+			"foreground": "var(color_keyword_control)",
+		},
+		{
+			"scope": "storage | support.function",
+			"foreground": "var(color_support_function)",
+		},
+		{
+			"scope": "variable",
+			"foreground": "var(color_variable)",
+		},
+		{
+			"scope": "entity.name.function | entity.name.type.class | entity.other.inherited-class",
+			"foreground": "var(color_user_function)",
+			"font_style": "bold",
+		},
+		{
+			"scope": "constant | support.constant | variable.other.global",
+			"foreground": "var(color_constant_value)",
+		},
+
+		//
+		// Regexp
+		//
+		{
+			"scope": "string.regexp | keyword.operator.regexp",
+			"foreground": "var(color_constant_value)",
+		},
+		{
+			"scope": "string.regexp.character-class",
+			"background": "#ece9e0aa",
+		},
+
+		//
+		// Tag
+		//
+		{
+			"scope": "meta.tag | entity.name.tag | punctuation.definition.tag | entity.tag",
+			"foreground": "var(color_tag)",
+		},
+		{
+			"scope": "string.quoted.double.html | string.quoted.single.html | string.quoted.single.xml | string.quoted.single.xml",
+			"foreground": "var(color_property_name)",
+		},
+
+		//
+		// CSS
+		// 
+		
+		// CSS SELECTOR
+		{
+			"scope": "entity.other.attribute-name",
+			"foreground": "var(color_number)",
+		},
+
+		// CSS ID SELECTOR
+		{
+			"scope": "entity.other.attribute-name.id",
+			"foreground": "var(color_support_function)",
+		},
+
+		// CSS Property Name
+		{
+			"scope": "support.type.property-name.css | support.type.property-name.scss | meta.property-name.scss",
+			"foreground": "var(color_property_name)",
+		},
+		// CSS Property Name - vendor
+		{
+			"scope": "support.type.vendor-prefix",
+			"foreground": "var(color_tag)",
+		},
+
+		// CSS Property Value
+		{
+			"scope": "meta.property-value | constant.numeric.css",
+			"foreground": "var(color_property_value)",
+		},
+
+		{
+			"scope": "keyword.control.at-rule.css",
+			"foreground": "var(color_tag)",
+		},
+	
+		// SCSS VARIABLE
+		{
+			"scope": "variable.parameter.sass",
+			"foreground": "var(color_support_function)",
+		},
+
+
+		// CSS PSEUDO
+		{
+			"scope": "entity.other.pseudo-class.css | entity.other.pseudo-element.css",
+			"foreground": "var(color_constant_value)",
+			"background": "#ece9e0aa",
+		},
+
+		// PHP
+		{
+			"scope": "punctuation.section.embedded.begin.php",
+			"foreground": "var(color_user_function)",
+			"background": "#ece9e0aa",
+			"font_style": "bold",
+		},
+
+		//
+		// GitGutter
+		//
+		{
+			"scope": "markup.deleted.git_gutter",
+			"foreground": "#e2383b",
+		},
+		{
+			"scope": "markup.inserted.git_gutter",
+			"foreground": "#69b92d",
+		},
+		{
+			"scope": "markup.changed.git_gutter",
+			"foreground": "#f2c58b",
+		},
+		{
+			"scope": "markup.ignored.git_gutter",
+			"foreground": "#565656",
+		},
+		{
+			"scope": "markup.untracked.git_gutter",
+			"foreground": "#aaa",
+		},
+	]
+}

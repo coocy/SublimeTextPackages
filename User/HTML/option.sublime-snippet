@@ -1,0 +1,7 @@
+<snippet>
+	<content>
+		<![CDATA[<option value="$1">$0</option>]]>
+	</content>
+	<tabTrigger>option</tabTrigger>
+	<scope>text.html &amp; (- meta.tag | punctuation.definition.tag.begin)</scope>
+</snippet>

@@ -1,0 +1,7 @@
+<snippet>
+	<content>
+		<![CDATA[animation:${1:animation_name} ${2:.6}s 0s ${3:infinite} ${4:cubic-bezier(0.39, 0.575, 0.565, 1)} both;]]>
+	</content>
+	<tabTrigger>ani</tabTrigger>
+	<scope>source.css | source.scss</scope>
+</snippet>

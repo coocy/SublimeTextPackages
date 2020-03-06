@@ -1,0 +1,7 @@
+<snippet>
+	<content>
+		<![CDATA[scale(${0:1})]]>
+	</content>
+	<tabTrigger>scale</tabTrigger>
+	<scope>source.css | source.scss</scope>
+</snippet>

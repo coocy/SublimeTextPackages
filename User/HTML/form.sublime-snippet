@@ -1,0 +1,9 @@
+<snippet>
+	<content>
+		<![CDATA[<form method="${1:post}" action="">
+	$0
+</form>]]>
+	</content>
+	<tabTrigger>form</tabTrigger>
+	<scope>text.html &amp; (- meta.tag | punctuation.definition.tag.begin)</scope>
+</snippet>

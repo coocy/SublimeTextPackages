@@ -1,0 +1,7 @@
+<snippet>
+	<content>
+		<![CDATA[position:absolute;]]>
+	</content>
+	<tabTrigger>poa</tabTrigger>
+	<scope>source.css | source.scss</scope>
+</snippet>

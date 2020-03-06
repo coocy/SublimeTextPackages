@@ -1,0 +1,7 @@
+<snippet>
+	<content>
+		<![CDATA[display:none;]]>
+	</content>
+	<tabTrigger>disn</tabTrigger>
+	<scope>source.css | source.scss</scope>
+</snippet>
