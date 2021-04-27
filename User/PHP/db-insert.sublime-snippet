@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[\$this->db->insert('$1', [
+    	'$2' => $3,
+]);]]></content>
+    <tabTrigger>dbi</tabTrigger>
+    <scope>source.php</scope>
+    <description>$this-&gt;db-$gt;insert</description>
+</snippet>

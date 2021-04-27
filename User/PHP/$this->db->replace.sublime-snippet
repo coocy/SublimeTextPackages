@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[\$this->db->replace('$1', [
-    	'$2' => $3,
-]);]]></content>
-    <tabTrigger>dbre</tabTrigger>
-    <scope>source.php</scope>
-    <description>$this-&gt;db-$gt;replace</description>
-</snippet>

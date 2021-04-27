@@ -1,8 +1,0 @@
-<snippet>
-    <content><![CDATA[\$this->db->select('$1')
-	->where('$2', [$3])$0
-	->go();]]></content>
-    <tabTrigger>dbs</tabTrigger>
-    <scope>source.php</scope>
-    <description>$this-&gt;db-$gt;select</description>
-</snippet>

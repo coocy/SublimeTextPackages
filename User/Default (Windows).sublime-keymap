@@ -1,3 +1,8 @@
 [
-	{ "keys": ["ctrl+alt+c"], "command": "clone_file" }
+	{ "keys": ["ctrl+super+c"], "command": "clone_file" },
+	{ "keys": ["ctrl+super+up"], "command": "swap_line_up" },
+	{ "keys": ["ctrl+super+down"], "command": "swap_line_down" },
+	{ "keys": ["ctrl+g"], "command": "find_next" },
+	{ "keys": ["super+g"], "command": "show_overlay", "args": {"overlay": "goto", "text": ":"} },
+	{ "keys": ["ctrl+f"], "command": "show_panel", "args": {"panel": "replace", "reverse": false} }
 ]
