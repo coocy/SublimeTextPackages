@@ -9,10 +9,13 @@
 		"ApacheConf",
 		"ayu",
 		"BracketHighlighter",
+		"C Improved",
+		"ChineseLocalizations",
 		"Color Highlighter",
 		"ColorPicker",
 		"CSS Format",
 		"GitGutter",
+		"HexViewer",
 		"Hosts",
 		"INI",
 		"JsFormat",
@@ -21,11 +24,16 @@
 		"nginx",
 		"Nodejs",
 		"Package Control",
+		"PHP Codebeautifier",
 		"Phpcs",
 		"QuickSearchEnhanced",
 		"Sass",
 		"SideBarEnhancements",
 		"SublimeGit",
-		"TOML"
+		"SublimeLinter-json",
+		"SublimeLinter-php",
+		"SummitLinter",
+		"TOML",
+		"TypeScript Syntax"
 	]
 }
