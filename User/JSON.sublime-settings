@@ -3,6 +3,7 @@
 	[
 		"json",
 		"sublime-theme",
-		"sublime-color-scheme"
+		"sublime-color-scheme",
+		".sublime-project"
 	]
 }
