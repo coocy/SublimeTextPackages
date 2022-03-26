@@ -6,5 +6,6 @@
 		".jsbeautifyrc",
 		"sublime-completions",
 		"asset"
-	]
+	],
+	"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?"
 }

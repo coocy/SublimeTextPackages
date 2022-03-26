@@ -24,7 +24,6 @@
 		"ASP",
 		"Batch File",
 		"C#",
-		"C++",
 		"Clojure",
 		"D",
 		"Diff",
@@ -66,5 +65,6 @@
 	"tab_size": 4,
 	"theme": "Atom Light.sublime-theme",
 	"themed_title_bar": true,
+	"update_check": false,
 	"word_separators": "./\\()\"'-:,.;<>~!$@#%^&*|+=[]{}`~?"
 }

@@ -1,6 +1,4 @@
 {
-	"font_size": 10,
-	"line_padding_bottom": 3,
-	"line_padding_top": 3,
-	"scroll_past_end": false
+    "font_face": "Consolas",
+    "font_size": 11
 }

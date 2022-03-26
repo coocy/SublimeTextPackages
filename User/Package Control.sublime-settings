@@ -7,10 +7,8 @@
 	"installed_packages":
 	[
 		"ApacheConf",
-		"ayu",
 		"BracketHighlighter",
 		"C Improved",
-		"ChineseLocalizations",
 		"Color Highlighter",
 		"ColorPicker",
 		"CSS Format",
@@ -21,20 +19,18 @@
 		"Indent XML",
 		"INI",
 		"JsFormat",
+		"JSON Key-Value",
 		"LESS",
-		"MarkdownEditing",
+		"MarkdownLight",
 		"nginx",
 		"Nodejs",
 		"Package Control",
 		"PHP Codebeautifier",
-		"Phpcs",
 		"QuickSearchEnhanced",
 		"Sass",
 		"SideBarEnhancements",
 		"SublimeGit",
 		"SublimeLinter-json",
-		"SublimeLinter-php",
-		"SummitLinter",
 		"TOML",
 		"TypeScript"
 	]

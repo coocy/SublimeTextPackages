@@ -881,7 +881,7 @@
         ]
     },
     {
-        "caption": "Help",
+        "caption": "帮助",
         "mnemonic": "H",
         "id": "help",
         "children":

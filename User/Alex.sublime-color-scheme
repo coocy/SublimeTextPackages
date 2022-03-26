@@ -6,10 +6,17 @@
 		"color_keyword": "#091480",
 		"color_number": "#d64926",
 		"color_variable": "#091480",
+		"color_variable_type": "#9200ff",
 		"color_tag": "#0000ff",
-		"color_keyword_control": "#0000ff",
+		"color_keyword_control": "#9200ff",
+		"color_import": "#d64926",
+		"color_class": "#d64926",
 		"color_support_function": "#8300ff",
 		"color_user_function": "#d64926",
+
+		"color_function_call": "#007a96",
+		"color_class_method": "#7f5d17",
+		
 		"color_constant_value": "#B4371F",
 		"color_property_name": "#8080c0",
 		"color_property_value": "#000000",
@@ -37,10 +44,12 @@
 		"find_highlight": "#84e8478c",
 
 		"shadow_width": "4",
-
 	},
 	"rules":
 	[
+		//
+		// GLOBAL
+		//
 		{
 			"scope": "brackethighlighter.default",
 			"background": "#f0f0b7",
@@ -64,7 +73,7 @@
 			"foreground": "var(color_keyword)",
 		},
 		{
-			"scope": "storage.modifier | keyword.control",
+			"scope": "storage.modifier | keyword.control | keyword.other",
 			"foreground": "var(color_keyword_control)",
 		},
 		{
@@ -72,11 +81,40 @@
 			"foreground": "var(color_support_function)",
 		},
 		{
+			"scope": "support.function",
+			"foreground": "var(color_function_call)",
+		},
+		{
+			"scope": "variable.function",
+			"foreground": "var(color_class_method)",
+		},
+		{
 			"scope": "variable",
 			"foreground": "var(color_variable)",
 		},
 		{
-			"scope": "entity.name.function | entity.name.type.class | entity.other.inherited-class",
+			"scope": "storage.type | support.type",
+			"foreground": "var(color_variable_type)",
+		},
+		{
+			"scope": "meta.preprocessor",
+			"foreground": "var(color_constant_value)",
+		},
+		{
+			"scope": "entity.name.constant.preprocessor",
+			"foreground": "#0336ff",
+		},
+		{
+			"scope": "meta.preprocessor.include | meta.include | string.quoted.double.include | string.quoted.other.lt-gt.include",
+			"foreground": "var(color_import)",
+		},
+		{
+			"scope": "entity.name.type.class | entity.other.inherited-class | support.class | entity.name.class",
+			"foreground": "var(color_class)",
+			"font_style": "bold",
+		},
+		{
+			"scope": "entity.name.function",
 			"foreground": "var(color_user_function)",
 			"font_style": "bold",
 		},
@@ -110,6 +148,18 @@
 		},
 
 		//
+		// JS
+		// 
+		{
+			"scope": "support.type.object.dom.js",
+			"foreground": "var(color_number)",
+		},
+		{
+			"scope": "keyword.operator.logical",
+			"foreground": "var(color_number)",
+		},
+
+		//
 		// CSS
 		// 
 		
@@ -138,19 +188,23 @@
 
 		// CSS Property Value
 		{
-			"scope": "meta.property-value | constant.numeric.css",
-			"foreground": "var(color_property_value)",
+			"scope": "meta.property-value",
+			"foreground": "var(color_property_value)"
 		},
 
 		{
 			"scope": "keyword.control.at-rule.css",
-			"foreground": "var(color_tag)",
+			"foreground": "var(color_tag)"
 		},
 	
 		// SCSS VARIABLE
 		{
 			"scope": "variable.parameter.sass",
-			"foreground": "var(color_support_function)",
+			"foreground": "var(color_support_function)"
+		},
+		{
+			"scope": "meta.function-call.css | support.function.sass",
+			"foreground": "#007a96"
 		},
 
 
@@ -158,7 +212,7 @@
 		{
 			"scope": "entity.other.pseudo-class.css | entity.other.pseudo-element.css",
 			"foreground": "var(color_constant_value)",
-			"background": "#ece9e0aa",
+			"background": "#ece9e0aa"
 		},
 
 		// PHP
@@ -166,7 +220,19 @@
 			"scope": "punctuation.section.embedded.begin.php",
 			"foreground": "var(color_user_function)",
 			"background": "#ece9e0aa",
-			"font_style": "bold",
+			"font_style": "bold"
+		},
+
+		// JSON
+		// KEY
+		{
+			"scope": "keyword.other.name.json",
+			"foreground": "#0051ac"
+		},
+		// VALUE
+		{
+			"scope": "string.quoted.json",
+			"foreground": "var(color_string)",
 		},
 
 		//
