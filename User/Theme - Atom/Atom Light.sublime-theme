@@ -1,6 +1,6 @@
 [
 	//
-	// WINDOW
+	// Window
 	//
 	{
 		"class": "title_bar",
@@ -28,7 +28,7 @@
 	},
 
 	//
-	// SIDE BAR
+	// Side Bar
 	//
 	{
 		"class": "sidebar_container",
@@ -186,7 +186,7 @@
 	},
 
 	//
-	// TABS
+	// Tabs
 	//
 	{
 		"class": "tabset_control",
@@ -273,7 +273,7 @@
 		"content_margin": [8, 8]
 	},
 
-	// Dirty tab
+	// Dirty Tab
 	{
 		"class": "tab_close_button",
 		"parents": [{"class": "tab_control", "attributes": ["dirty"]}],
@@ -282,7 +282,7 @@
 		"content_margin": [8, 8]
 	},
 
-  	// Selected dirty tab
+  	// Selected Dirty Tab
 	{
 		"class": "tab_close_button",
 		"parents": [{"class": "tab_control", "attributes": ["selected", "dirty"]}],
@@ -301,7 +301,7 @@
 	},
 
 	//
-	// TAB ARROWS
+	// Tab Arrows
 	//
 	{
 		"class": "scroll_tabs_left_button",
@@ -326,7 +326,7 @@
 	},
 
 	//
-	// LABELS
+	// Labels
 	//
 	{
 		"class": "label_control",
@@ -334,7 +334,7 @@
 	},
 
 	//
-	// STATUS BAR
+	// Status Bar
 	//
 	{
 		"class": "status_bar",
@@ -345,6 +345,8 @@
 		"layer1.opacity": 1,
 		"layer1.inner_margin": [0, 1, 0, 0],
 	},
+
+	// Panel Button
 	{
 		"class": "panel_button_control",
 		"content_margin": [10, 8],
@@ -356,6 +358,8 @@
 		"class": "status_button",
 		"content_margin": [5, 5, 5, 5]
 	},
+
+	// Editor Middle Line
 	{
 		"class": "grid_layout_control",
 		"border_size": 1,
@@ -363,7 +367,7 @@
 	},
 
 	//
-	// SEARCH && REPLACE
+	// Search && Replace
 	//
 	{
 		"class": "panel_control",
@@ -374,9 +378,11 @@
 		"layer1.opacity": 1,
 		"layer1.inner_margin": [0, 1, 0, 0],
 	},
+
+	// Search Input Text
 	{
 		"class": "text_line_control",
-		"content_margin": [8,6],
+		"content_margin": [6,6],
 		"color_scheme_tint": [255, 255, 255],
 		"color_scheme_tint_2": [255, 255, 255],
 
@@ -392,7 +398,7 @@
 	},
 
 	//
-	// TEXT BUTTONS
+	// Search Buttons
 	//
 	{
 		"class": "button_control",
@@ -416,7 +422,7 @@
 	},
 
 	//
-	// ICON BUTTONS
+	// Icon Buttons
 	//
 	{
 		"class": "icon_button_group",
@@ -527,7 +533,7 @@
 	},
 
 	//
-	// QUICK PANEL
+	// Quick Panel
 	//
 	{
 		"class": "overlay_control",
@@ -648,7 +654,7 @@
 	},	
 
 	//
-	// TOOLTIP
+	// Tooltip
 	//
 	{
 		"class": "tool_tip_control",
@@ -665,7 +671,15 @@
 	},
 
 	//
-	// AUTO COMPLETE
+	// About Window Title
+	//
+	{
+		"class": "title_label_control",
+		"color": [0, 0, 0],
+	},
+
+	//
+	// Auto Complete
 	//
 	{
 		"class": "auto_complete",
@@ -696,7 +710,7 @@
 	},
 
 	//
-	// CODE FOLDING
+	// Code Folding
 	//
 	{
 		"class": "fold_button_control",

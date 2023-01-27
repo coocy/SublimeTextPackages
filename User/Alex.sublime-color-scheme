@@ -155,7 +155,7 @@
 			"foreground": "var(color_number)",
 		},
 		{
-			"scope": "keyword.operator.logical",
+			"scope": "keyword.operator.logical || keyword.operator.bitwise",
 			"foreground": "var(color_number)",
 		},
 
